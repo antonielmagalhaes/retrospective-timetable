@@ -1,0 +1,96 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #ffa45c;
+}
+
+#nav-menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #5d5d5a;
+  border-bottom: 3px solid #ffcdab;
+  box-shadow: 0px 8px #ffcdab15;
+  padding: 15px;
+}
+
+#logo {
+  display: flex;
+  color: rgb(219, 192, 192);
+  text-decoration: none;
+  text-align: right;
+  font-family: "Lato", sans-serif;
+  letter-spacing: 3px;
+  font-size: 14px;
+}
+
+#menu-links {
+  display: flex;
+  width: 30%;
+  justify-content: space-around;
+}
+
+.menu-itens {
+  color: rgb(219, 192, 192);
+  padding: 10px;
+  text-decoration: none;
+}
+
+#container {
+  background-color: #ffcdab;
+  width: 100%;
+  max-width: 600px;
+  font-size: 1rem;
+  padding: 10px 20px 20px 20px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  box-shadow: 8px 8px #03000025;
+}
+
+.card-course {
+  padding: 10px;
+
+  border-radius: 5px;
+  background-color: #fff4e3;
+  color: rgb(80, 80, 80);
+  margin-top: 20px;
+  box-shadow: 2px 2px #03000025;
+}
+.card-course:hover {
+  background-color: #dad0c3;
+}
+
+#formulario form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#button-add {
+  background-image: url(/iconmonstr-arrow-28.svg);
+  width: 24px;
+  height: 24px;
+  padding: 12px;
+  margin-left: 10px;
+  border-radius: 50%;
+  border: 0px;
+}
+
+#text-input {
+  max-width: 530px;
+  width: 100%;
+  height: 30px;
+  box-shadow: 2px 2px #03000025;
+}
